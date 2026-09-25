@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.5",
+    "viem": "^2.21.0"
+  },
+  "description": "Professional toolkit for deploying an ERC-721 NFT collection to Polygon",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "hardhat": "^2.22.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "polygon",
+    "nft",
+    "erc721",
+    "viem",
+    "hardhat",
+    "web3"
+  ],
+  "license": "MIT",
+  "name": "@thebullbrew/crypto-polygon-nft-deployer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebullbrew/crypto-polygon-nft-deployer.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "compile": "npx hardhat compile",
+    "deploy": "tsx src/deploy.ts",
+    "mint": "tsx src/mint.ts"
+  },
+  "version": "0.1.0"
+}
